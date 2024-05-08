@@ -1,47 +1,101 @@
 <!DOCTYPE html>
 <html lang="ru">
 	<head>
-		<title>ПР-3</title>
+		<title>ПР-4 (Формы)</title>
 		<meta http-equiv="content-type" content="text/html;charset=UTF-8"/> 
 	</head>
 	<body>
-		<h1>заголовки</h1>
-		<p>Абзац-1 Давным-давно, в далекой-далекой галактике.. . <br/>ЗВЁЗДНЫЕ ВОЙНЫ Эпизод II АТАКА КЛОНОВ В Галактическом Сенате смятение. Несколько тысяч солнечных систем заявило о намерении выйти из состава республики. 
-			Это сепаратистское движение, возглавляемое таинственным графом Дуку, сильно осложняет немногочисленным силам рыцарей Джедаев попытки сохранить мир и порядок в галактике. Сенатор Амидала, бывшая 
-			королева Набу, возвращается в Галактический Сенат, чтобы участвовать в голосовании по спорному вопросу создания РЕСПУБЛИКАНСКОЙ АРМИИ-- в помощь оставшимся Джедаям. . </p>
-		<p>Абзац-2 и так далее</p>
-		<h2>подзаголовки</h2>
-		<h3>подзаголовкиподзаголовков</h3>
-		<h4>подзаголовкиподзаголовковподзаголовков</h4>
-		это текст вообще без тега, ес чо
-		<span>Кстати, это новый тег, прокол в том, что блочные потому что занимают "блок" экрана, а строчные ребята прикольные и профиля другого
-		они занимают только столько, сколько им дали</span>
-		<a target=" _blank" href="https://vk.com/shammmpanskiy">
-		ссылка на виталикоф без СМС и регистрации!
-		</a>
-		<h5>А вообще ссылка выше сделанн при момощи тега "а", прим:"<а target=" _blank" href="https://vk.com/shammmpanskiy">
-		ссылка на виталикоф без СМС и регистрации!
-		</а>"</h5>
-		<h2> Вот и Виталикоф, собственной персоной(ему не нравится эта фотка, а по моему норм фотка)			
-		<img src="img/UKI4uoO2mLE.jpg" alt="Извинити, но Виталикоф слишком толстый и не загрузился:("/></h2>
-		<h5>А ещё могут быть всякие прикольные списочки</h5>
-			<ul>
-				<li>один</li>
-				<li>гея</li>
-				<li>икар</li>
-				<li>Виталик</li>
-			</ul>
-		<h5>ИЛИ
-			<ol>
-			<li>Виталик</li>
-			<li>один</li>
-			<li>гея</li>
-			<li>икар</li>
-			</ol>
-		</h5>
-	<span>123, как длеа?
-		<p>
-		
-		</p>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div>
+                <p>Ник</p>
+                <input tabindex="1" placeholder="Введите никнейм" type="text" name="username" value="" />
+            </div>
+            <div>
+                <p>Пароль</p>
+                <input tabindex="2" placeholder="Введите пароль" type="password" name="userpass" value="" />
+            </div>
+            <div>
+                <p>Телефон</p>
+                <input tabindex="3" placeholder="Введите телефон" type="tel" name="usertel" value="" />
+            </div>
+            <div>
+                <p>Гендер</p>
+                <div>
+                    <p><input tabindex="4" checked type="radio" name="gender" value="heli" />Боевой вертолёт Ка-52</p>
+                    <p><input tabindex="4" type="radio" name="gender" value="trans" />Трансгендер</p>     
+                    <p><input tabindex="4" type="radio" name="gender" value="kasha" />Руслан</p>                 
+                </div>
+            </div>
+            <div>
+                <p>Имущество</p>
+                <div>
+                    <input tabindex="5" checked type="checkbox" name="tank" value="yes"/>Т-72
+                </div>
+                <div>
+                    <input tabindex="6" type="checkbox" name="heli" value="yes"/>КА-52
+                </div>
+                <div>
+                    <input tabindex="7" disabled type="checkbox" name="naval" value="yes"/>Адмирал Кузнецов
+                </div>
+            </div>
+            <div>
+                <p>Дополнительная информация</p>
+                <textarea tabindex="8" name="text"></textarea>
+            </div>
+            <div>
+                <p>Прикрепить фото</p>
+                <input tabindex="9" type="file" name="userfoto">
+            </div>
+            <div>
+                <p>Любимый цвет</p>
+                <select tabindex="10" name="color">
+                    <option value="red">Красный</option>
+                    <option value="yellow">Желтый</option>
+                    <option selected value="da">Да</option>
+                </select>
+            </div>
+            <div>
+                <p>Действия</p>
+                <button tabindex="11" type="submit">Отправить</button>
+                <button tabindex="12" type="reset">Очистить</button>
+            </div>
+        </form>
+
+        <!-- <form action="#" method="post" enctype="multipart/form-data"></form>
+        <div>
+            <input tabindex="1" placeholder="Напиши сюда что-то" type="text" name="username" value="" />
+        </div>
+        <div>
+            <input tabindex="2" disabled type="password" name="userpass" value="" />
+        </div>
+        <div>
+            <p><input checked type="radio" name="beer1" value="lager" /> Светлое пиво</p>
+            <p><input type="radio" name="beer1" value="dark" /> Темное пиво</p>
+        </div><br />
+        <div>
+            <p><input type="radio" name="beer2" value="lager" /> Светлое пиво</p>
+            <p><input checked type="radio" name="beer2" value="dark" /> Темное пиво</p>
+        </div><br />
+        <div>
+            <p><input type="checkbox" name="car0" value="yes" /> Наличие авто 0</p>
+            <p><input type="checkbox" name="car1" value="yes" /> Наличие авто 1</p>
+            <p><input type="checkbox" name="car2" value="yes" /> Наличие авто 2</p>
+        </div><br>
+        <div>
+            <p><input type="file" name="foto" /></p>            
+        </div><br>
+        <div>
+            <textarea tabindex="3" placeholder="Хоба" name="text" cols="30" rows="10"></textarea>
+        </div><br>
+        <div>
+            <select name="color">
+                <option value="red">Красный</option>
+                <option selected value="yellow">Желтый</option>
+                <option value="blue">Голубой</option>
+            </select>
+        </div><br>
+        <div>
+            <button type="sumbit">Отправить</button>
+        </div> -->
 	</body>
 </html>
