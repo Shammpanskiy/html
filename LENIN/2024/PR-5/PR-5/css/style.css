@@ -2,7 +2,9 @@ div{
 
 }
 
-span{
-    font-size: 20px;
+.big-red{
+    font-size: 50px;
     color: red;
+    
 }
+
