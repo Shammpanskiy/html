@@ -4,7 +4,25 @@ div {
     font-size: 16px;
 }
 
-span {
+.bigblue {
+    font-size: 20px;
+    color: blue;
+}
+
+.bigred {
     font-size: 20px;
     color: red;
+}
+
+span.bigblue {
+    color: green;
+}
+
+.bigred span {
+    color: blue;
+}
+
+.block>p{
+    color: pink;
+    border: 1px solid #000;
 }
