@@ -1,10 +1,36 @@
-div{
-
+.q{
+    font-weight: 1000;
 }
-
-.big-red{
-    font-size: 50px;
+.r{
+   font-style: italic; 
+}
+.e{
     color: red;
-    
 }
-
+.r{
+    text-align: right;
+}
+.t{
+    text-align: center;
+}
+.y{
+    text-align: justify;
+}
+.u{
+    text-decoration: underline;
+}
+.i{
+    text-shadow: 1px 1px 1px rgb(19, 7, 126);
+}
+.o{
+    text-transform: capitalize;
+}
+.p{
+    text-transform: lowercase;
+}
+.a{
+    letter-spacing: 7px;
+}
+.s{
+    text-indent: 70px;
+}
