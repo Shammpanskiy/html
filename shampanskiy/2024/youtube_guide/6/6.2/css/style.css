@@ -1,0 +1,64 @@
+
+.site {
+    padding: 40px;
+}
+
+h1,h2,h3 {
+    padding: 0 0 20px 0;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #00f00f;
+}
+
+h2 {
+    font-size: 25px;
+    color: #0ff0ff;
+}
+
+h3 {
+    font-size: 20px;
+    color: #0ff0ff;
+}
+
+p {
+    padding: 0 0 10px 0;
+    line-height: 20px;
+}
+
+.bold {
+    font-weight: 700;
+}
+.red {
+    color: red;
+}
+.alignright {
+    text-align: right;
+}
+.upper {
+    text-transform: uppercase;
+}
+.italic {
+    font-style: italic;
+}
+.decoration {
+    text-decoration: underline;
+}
+.align {
+    text-align: center;
+}
+.big {
+    font-size: 30px;
+    white-space: nowrap;
+}
+.line-through {
+    text-decoration: line-through;
+}
+.wspace {
+    word-spacing: 20px;
+}
+.shadow {
+    text-shadow: 1px 1px 3px #000;
+}
