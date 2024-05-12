@@ -1,3 +1,9 @@
+.p{
+    line-height: 30px;
+}
+.pipa{
+    padding: 20px;
+}
 .q{
     font-weight: 1000;
 }
@@ -6,6 +12,7 @@
 }
 .e{
     color: red;
+    padding: 0 0 50px 0;
 }
 .r{
     text-align: right;
@@ -29,7 +36,8 @@
     text-transform: lowercase;
 }
 .a{
-    letter-spacing: 7px;
+    letter-spacing: 50px;
+    line-height: 100px;
 }
 .s{
     text-indent: 70px;
