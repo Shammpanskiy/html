@@ -3,8 +3,21 @@
     border: 1px ;
     margin: 10 px;
     width: 500px;
+    height: 200px;
+    min-height: 200;
+    overflow: auto;
+    display: block;
 }
 
 .s{
+
     margin: 10px;
+    max-width: ;
+    min-width: ;
+    display: inline;
+    
+}
+.img{
+    width: 100px;
+    display: none;
 }
