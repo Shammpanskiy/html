@@ -1,13 +1,18 @@
+* {
+    line-height: 100%;
+}
+
 .eb {
+    border: 1px solid #000;
+
     font-size: 50px;
     margin: 0 0 30px 0;
-
-    border: 10px dashed #000;   
 }
 
-.s{
+.s {
     font-size: 50px;
 }
-.img{
- 
+
+.img {
+
 }
