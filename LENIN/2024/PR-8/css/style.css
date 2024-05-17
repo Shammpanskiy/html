@@ -1,11 +1,13 @@
 .eb {
-    font-style: 50px;
+    font-size: 50px;
     margin: 0 0 30px 0;
+
+    border: 10px dashed #000;   
 }
 
 .s{
-    font-style: 50px;
+    font-size: 50px;
 }
 .img{
-
+ 
 }
