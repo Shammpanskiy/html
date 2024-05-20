@@ -1,0 +1,91 @@
+body{
+    padding: 30px;
+}
+
+.eb{
+    margin: 0 0 30px 0;
+}
+
+.block p{
+    font-style: 18px;
+    line-height: 24;
+    margin: 0 0 20px 0;
+}
+
+.lk{
+    color: rgb(100, 14, 238);
+}
+
+.lk:hover{
+    text-decoration: underline;
+    color: red ;
+}
+
+.lk:active{
+    color: #d9ff00;
+}
+
+.textinp{
+    border: 1px solid #181b08;
+    height: 50px;
+    padding: 15px;
+    font-style: 18px;
+    width: 300px;
+    margin: 10px;
+}
+
+.textinp:focus{
+    box-shadow: 0 0 10px #181b08;    
+}
+
+.but{
+    display: block;
+    width: 300px;
+    height: 50px;
+    background-color: #ffffff;
+    font-style: 18px;
+    color: #a58383;   
+    text-transform: uppercase;
+    margin: 0 0 30px 0;
+}
+
+.li{}
+.li li{
+    font-size: 18px;
+    margin: 0 0 15px 0;
+}
+
+.li li:first-child{
+    color: aqua
+}
+
+.li li:last-child{
+    font-weight: 100;
+    color: #d9ff00;
+}
+
+.li li:nth-child(4){
+    text-decoration: underline;
+}
+
+/* .li li:nth-child(odd){
+    text-decoration: underline;
+}
+
+.li li:nth-child(even){
+    text-decoration: underline;
+} sh+alt+a */
+
+.but:hover{
+    background-color: #070202;
+    color: aquamarine
+}
+
+.but:active{
+    background-color: #fffafa;
+    color: aquamarine
+}
+
+.block p:nth-child(odd){
+    background-color: #fffb05de;
+}
