@@ -1,0 +1,95 @@
+
+body {
+    padding: 30px;
+    font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.block {
+    border: 3px solid #004;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #000;
+    min-width: 400px;
+    margin: 0px auto;
+    height: 800px;
+    padding: 10px;
+    background-color: #ffe;
+    position: relative;
+}
+
+.block div {
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    
+    margin: 0 0 10px 0;
+    border-radius: 10px;
+
+}
+
+.block div:hover {
+    box-shadow: 0 0 10px #000;
+    transition: 0.8s;
+}
+
+.block div {
+    transition: 0.8s;
+}
+
+.block__1 {
+    background-color: pink;
+}
+
+.block__2 {
+    background-color: #5e5373;
+    color: #fff;
+    position: relative;
+    left: 50px;
+    top: 30px;
+    right: 0;
+    bottom: 0;
+}
+
+.block__3 {
+    z-index: 1;
+    background-color: #18b5a4;
+    position: absolute;
+    width: 75%;
+    bottom: 200px;
+    left: 0;
+}
+
+.block__4 {
+    background-color: cyan;
+}
+
+.block__5 {
+    background-color: #f5f;
+    position: fixed;
+    width: 75%;
+    box-shadow: 0 0 3px #000;
+}
+
+.block__6 {
+    background-color: #ff1;
+    position:sticky;
+}
+
+.list {
+    font-size: 18px;
+    position: relative;
+}
+
+.list li {
+    margin: 0 0 10px 0;
+}
+
+.list li:before {
+    content: '🤪';
+    width:200px;
+    height:200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
