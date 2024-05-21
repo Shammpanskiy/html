@@ -1,0 +1,45 @@
+body{
+    padding: 30px;
+}
+
+.b{
+    border: 5px solid red;
+    min-width: 800px;
+    margin: 0px auto;
+    height: 800px;
+    position: relative;
+}
+
+.b div{
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.b1{
+    background-color: antiquewhite;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%; 
+}
+
+.b2{
+    background-color: rgb(108, 175, 0);
+    color: aliceblue;
+   /*  position: relative; */
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    width: 100%;
+    /* z-index: 0; */
+}
+
+.b3{
+    background-color: rgb(141, 80, 0);
+   /*  position: relative; */
+  /*   z-index: 2; */
+    
+}
+
