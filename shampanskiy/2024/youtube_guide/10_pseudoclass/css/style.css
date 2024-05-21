@@ -1,0 +1,94 @@
+
+body {
+    padding: 30px;
+}
+
+.block {
+    margin: 0 0 30px 0;
+    padding: 10px;
+}
+
+.block p:last-child {
+    text-transform: capitalize;
+}
+
+.block:hover {
+    background-color: #ffe;
+    box-shadow: 0 0 10px rgba(150, 50, 50, 0.2);
+    border-radius: 10px;
+    transition: 1000ms;
+}
+
+.block {
+    transition: 1000ms;
+}
+
+.block p {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 20px 0;
+}
+
+.link {
+    color: green;
+}
+
+.link:hover {
+    color: red;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.link:visited {
+    color: blue;
+}
+
+.link:active {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.textinput {
+    border: 1px solid #666;
+    height: 50px;
+    padding: 0 15px;
+    font-size: 18px;
+    width: 300px;
+    margin: 0 0 10px 0;
+}
+
+.textinput:focus {
+    box-shadow: 0 0 10px rgba(150, 50, 50, 0.2);
+    transition: 200ms;
+}
+
+.textbutton {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: #666;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 0 30px 0;
+}
+
+.list {}
+
+.list li {
+    font-size: 18px;
+    margin: 0 0 15px 0;
+}
+
+.list li:first-child{
+    color: green;
+}
+
+.list li:last-child{
+    color: pink;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.list li:nth-child(4) {
+    text-decoration: underline;
+}

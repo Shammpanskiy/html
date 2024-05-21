@@ -1,0 +1,73 @@
+
+body {
+    padding: 30px;
+}
+
+.text {
+    font-size: 24px;
+    line-height: 33px;
+    margin: 0 0 30px 0;
+}
+
+.text:first-line {
+    color: green;
+}
+
+.text:first-letter {
+    font-size: 50px;
+    color: red;
+}
+
+.list {
+    margin: 0 0 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.list:hover {
+    box-shadow: 0 0 10px #000;
+    background-color: #ffe;
+    transition: 0.8s;
+}
+
+.list {
+    transition: 0.8s;
+}
+
+.list li {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+}
+
+.list li:before {
+    content: '😛';
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.list li:hover:before {
+    background-color: blue;
+    transition: 0.4s;
+}
+
+.list li:before {
+    transition: 0.4s;
+}
+
+.list li:after {
+    content: '🤑';
+    display: inline-block;
+    border-radius: 10px;
+    margin: 0 10px;
+    box-shadow: 0 0 5px #000;
+}
+
+.list li:hover:after {
+    background-color: blue;
+    transition: 0.4s;
+}
+
+.list li:after {
+    transition: 0.4s;
+}
