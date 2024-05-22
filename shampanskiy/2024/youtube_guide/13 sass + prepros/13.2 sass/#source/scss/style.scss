@@ -1,0 +1,73 @@
+// Обнуляющий файл
+
+@import "nullstyle.scss";
+
+$fz: 18px;
+$color_1:#ffe;
+$color_2:#fff;
+
+@mixin fontz($f) {
+    font-size: $f;
+}
+
+%tplborder {
+    border-bottom: 2px dashed purple;
+}
+
+.bdradius {
+    border-radius: 10px;
+}
+
+.block {
+    background-color: $color_2;
+    padding: 30px;
+    font-size: $fz;
+    line-height: 20px;
+    box-shadow: 0 0 10px black;
+    margin: 10px;
+    >p {
+        color: red;
+    }
+    span {
+        color: green;
+    }
+    .block__text {
+        font-size: 40px;
+        line-height: 35px;
+        margin: 0 0 30px 0;
+    }
+    &.block--big {
+        font-size: 100px;
+    }
+    &:hover {
+        background-color: $color_1;
+        transition: 0.8s;
+    }
+    & {
+        transition: 0.8s;
+    }
+    @extend .bdradius
+}
+
+.link {
+    color: blue;
+    text-decoration: underline;
+
+    .block & {
+        font-size: $fz;
+    }
+
+    &:hover {
+        transition: 0.4s;
+        color: red;
+    }
+    & {
+        transition: 0.4s;
+    }
+    @extend %tplborder;
+}
+
+.link-2 {
+    @include fontz(100px);
+    @extend %tplborder
+}
