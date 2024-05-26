@@ -1,0 +1,37 @@
+.vitalik__body {
+  min-width: 823px;
+  margin: 0px auto;
+}
+.vitalik__header {
+  margin: 60px;
+}
+.vitalik__title {
+  margin: 50px 0 50px 0;
+}
+.vitalik__text {
+  min-width: 700px;
+  color: #5f5f5f;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  margin: 0 auto;
+}
+.vitalik__foto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.vitalik__colon {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.33%;
+          flex: 0 0 33.33%;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 9px;
+  padding: relative;
+  text-align: center;
+}
