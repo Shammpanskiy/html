@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.body {
+  font-family: Arial;
+}
+
+.footer {
+  background-color: #fff;
+}
+.footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 65px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer__text {
+  color: rgba(0, 114, 95, 0.6352941176);
+  font-size: 16px;
+  letter-spacing: 0.3px;
+}
+
+.block__itrm, .block__col, .block__row, .block, .wraper {
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 15px #000;
+          box-shadow: 0 0 15px #000;
+}
+
+.wraper {
+  background-color: #c74141;
+  margin: 10px;
+}
+
+.block {
+  background-color: #6a63c2;
+}
+.block__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  background-color: #c7d16b;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 700px;
+}
+.block__col {
+  margin: 0 0 30px 0;
+  background-color: #45fff6;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  font-size: 30px;
+}
+.block__col:hover {
+  background-color: #000000;
+  color: #45fff6;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+.block__col:nth-child(2) {
+  line-height: 30px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+.block__col:last-child {
+  margin: 0;
+}
+.block__itrm {
+  background-color: #ffffff;
+}
