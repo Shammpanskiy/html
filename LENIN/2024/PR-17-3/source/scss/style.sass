@@ -30,19 +30,11 @@
 
     &__row
         display: flex
-        //justify-content: space-around
-        //justify-content: space-between
-        //justify-content: flex-end
-        //justify-content: flex-start
-        //justify-content: center
 
-        //align-items: flex-start 
-        //align-items: flex-end
-        //align-items: center
-        //align-items: baseline
-
-        //flex-wrap: wrap
-        //flex-wrap: wrap-reverse
+        //flex-direction: row-reverse
+        //flex-direction: row
+        //flex-direction: column //переворачивает флекс контейнер, из за этого меняется ориентация align-items: и justify-content: 
+        //flex-direction: column
 
         @extend %govno
         text-align: center
@@ -53,9 +45,6 @@
         background-color: #45fff6
         transition: 0.8s
         font-size: 30px
-        //flex-basis: 30%
-        //flex-grow:1 
-        //flex: 0(ширина) 0(мин ширина) (длинна)
 
     &__col:hover
         background-color: #000000
@@ -63,7 +52,6 @@
         transition: 0.8s//плавность 
     &__col:nth-child(2)
         line-height: 30px
-        //font-size: 60px
         
    
     &__itrm
@@ -72,8 +60,7 @@
 //-------------------------------------------//
 
 .block__col_1
-    //align-self: stretch перезаписывает св-ва
-    //order: 1 поменять порядок
+
 .block__col_2
 
 .block__col_3
