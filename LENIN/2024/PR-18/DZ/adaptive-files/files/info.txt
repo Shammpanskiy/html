@@ -43,4 +43,8 @@ min-monochrome
 БУДУ РАД ПОДДЕРЖКЕ КАНАЛА=========================================================================
 https://www.patreon.com/freelancerlifestyle
 
+								<div class="what__img">
+									<img src="" alt="">
+								</div>
+
 

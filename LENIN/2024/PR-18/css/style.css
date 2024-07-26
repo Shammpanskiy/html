@@ -1,0 +1,20 @@
+.footer {
+  background-color: #fff;
+}
+.footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 65px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer__text {
+  color: rgba(0, 114, 95, 0.6352941176);
+  font-size: 16px;
+  letter-spacing: 0.3px;
+}
